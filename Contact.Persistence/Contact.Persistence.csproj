@@ -7,10 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Context" />
       <Folder Include="Migrations" />
       <Folder Include="Repositories" />
       <Folder Include="UnitOfWork" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contact.Application\Contact.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.7" />
     </ItemGroup>
 
 </Project>

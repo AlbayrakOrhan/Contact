@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dMM43EMQ4XXOVF+9BV98UaGNdo+hcB0hoibnWYIi8WmTtl4d/lYjmCePwr1xF19dZ0P4EBXECZnjSXhSTif1BA==",
+  "dgSpecHash": "LNJa4y1IOg6MrWT9vQ57O043WzC81MgxillVvKqSPdVkzGMZAKjk8JDr/Br3R6VEXO1jiXxZPKzRJT25OH/cog==",
   "success": true,
   "projectFilePath": "/Users/oalbayrak/Personal Projects/Contact/Contact.Infrastructure/Contact.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/oalbayrak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -9,9 +9,6 @@
     <ItemGroup>
       <Folder Include="Commons" />
       <Folder Include="Constants" />
-      <Folder Include="Entities" />
-      <Folder Include="EntityConfigurations" />
-      <Folder Include="Enums" />
       <Folder Include="ValueObjects" />
     </ItemGroup>
 

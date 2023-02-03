@@ -10,3 +10,6 @@
 /Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/refint/Contact.Application.dll
 /Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.pdb
 /Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/ref/Contact.Application.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/bin/Debug/net6.0/Contact.Domain.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/bin/Debug/net6.0/Contact.Domain.pdb
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.csproj.CopyComplete

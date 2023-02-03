@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KVgMpgDaB5JWx4C6fO3TaDOFnkUhw632c0e4dqHbv6GHS9OsQvsfQuRtp0Kc9E7/drPMWHCrCjq2RhzIy9FMkg==",
+  "dgSpecHash": "gKS3w9iR2nQPK3GxmBxt98nVH/VkEGtI2kOwzmZ6NsYESiOs8HKf5hvDVNkQXaDPG95s2RV+Mxi78rleJ9SFZg==",
   "success": true,
   "projectFilePath": "/Users/oalbayrak/Personal Projects/Contact/Contact.Application/Contact.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/oalbayrak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
