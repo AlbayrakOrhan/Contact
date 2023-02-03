@@ -1,0 +1,12 @@
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/bin/Debug/net6.0/Contact.Application.deps.json
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/bin/Debug/net6.0/Contact.Application.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/bin/Debug/net6.0/Contact.Application.pdb
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.csproj.AssemblyReference.cache
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.AssemblyInfoInputs.cache
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.AssemblyInfo.cs
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.csproj.CoreCompileInputs.cache
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/refint/Contact.Application.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/Contact.Application.pdb
+/Users/oalbayrak/Personal Projects/Contact/Contact.Application/obj/Debug/net6.0/ref/Contact.Application.dll
