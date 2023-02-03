@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Contact.Domain.Commons;
+namespace Contact.Domain.Abstracts;
 
 public abstract class BaseEntityConfiguration<T> where T : BaseEntity
 {

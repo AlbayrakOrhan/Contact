@@ -1,4 +1,4 @@
-namespace Contact.Domain.Commons;
+namespace Contact.Domain.Abstracts;
 
 public abstract class BaseEntity
 {

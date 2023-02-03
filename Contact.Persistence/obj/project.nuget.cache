@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JYZ4cNJWrq6tMrwRqiQB8wM31+CJHsN2pfdY3il25kGH1QmRb7YkZEQyFXp1FxXrrDRNRhEKabEZLTo7LjvxSA==",
+  "dgSpecHash": "eKz9CeEeYCoKOknZVTq/H8o+4lFAvPs2Ap1ZNti6mc6mfB9/5C8xQLGVRg0Vwm5gL/hbINFhHF4S4u3EwE+Pyw==",
   "success": true,
   "projectFilePath": "/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/Contact.Persistence.csproj",
   "expectedPackageFiles": [
+    "/Users/oalbayrak/.nuget/packages/fluentvalidation/11.4.0/fluentvalidation.11.4.0.nupkg.sha512",
+    "/Users/oalbayrak/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.4.0/fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
+    "/Users/oalbayrak/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/oalbayrak/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/oalbayrak/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/oalbayrak/.nuget/packages/microsoft.entityframeworkcore/6.0.7/microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "/Users/oalbayrak/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.7/microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "/Users/oalbayrak/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.7/microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",

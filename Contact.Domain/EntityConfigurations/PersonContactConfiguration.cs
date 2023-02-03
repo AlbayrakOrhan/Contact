@@ -1,4 +1,4 @@
-using Contact.Domain.Commons;
+using Contact.Domain.Abstracts;
 using Contact.Domain.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

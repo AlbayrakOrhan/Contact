@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 using Contact.Application.Interfaces;
-using Contact.Domain.Commons;
+using Contact.Domain.Abstracts;
 using Contact.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 

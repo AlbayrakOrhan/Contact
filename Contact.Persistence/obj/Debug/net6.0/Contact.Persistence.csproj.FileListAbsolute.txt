@@ -15,3 +15,8 @@
 /Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/obj/Debug/net6.0/refint/Contact.Persistence.dll
 /Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/obj/Debug/net6.0/Contact.Persistence.pdb
 /Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/obj/Debug/net6.0/ref/Contact.Persistence.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Abstractions.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/bin/Debug/net6.0/Microsoft.Extensions.Features.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/bin/Debug/net6.0/Microsoft.Net.Http.Headers.dll

@@ -1,5 +1,5 @@
 using System.Linq.Expressions;
-using Contact.Domain.Commons;
+using Contact.Domain.Abstracts;
 
 namespace Contact.Application.Interfaces;
 
