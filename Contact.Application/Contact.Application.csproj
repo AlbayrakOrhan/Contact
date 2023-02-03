@@ -10,7 +10,6 @@
       <Folder Include="Commands" />
       <Folder Include="Events" />
       <Folder Include="Handlers" />
-      <Folder Include="Interfaces" />
       <Folder Include="Queries" />
     </ItemGroup>
 

@@ -1,4 +1,5 @@
 using Contact.Domain.Entities;
+using Contact.Domain.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Contact.Persistence.Context;
@@ -12,10 +13,8 @@ public class ContactDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<PersonContact>()
-            .HasOne(x => x.Person)
-            .WithMany(x => x.Contacts)
-            .HasForeignKey(x => x.PersonId);
+        new PersonConfiguration().BaseConfiguration(modelBuilder);
+        new PersonContactConfiguration().BaseConfiguration(modelBuilder);
     }
 
     public DbSet<Person> Persons { get; set; }
