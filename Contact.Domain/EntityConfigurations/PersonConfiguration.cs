@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Contact.Domain.EntityConfigurations;
 
-public class PersonConfiguration : BaseEntityConfiguration<Person>
+public class PersonConfiguration : EntityConfigurationBase<Person>
 {
     protected override void Configure(EntityTypeBuilder<Person> eb)
     {

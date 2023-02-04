@@ -1,5 +1,7 @@
 using System.Reflection;
+using Contact.Application.Assemblers;
 using Contact.Application.Behaviors;
+using Contact.Application.Interfaces;
 using Contact.Application.Middlewares;
 using FluentValidation;
 using MediatR;
@@ -15,5 +17,7 @@ public static class ServiceRegistration
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         services.AddTransient<ExceptionHandlingMiddleware>();
+        services.AddTransient<IPersonAssembler, PersonAssembler>();
+        services.AddTransient<IReportAssembler, ReportAssembler>();
     }
 }

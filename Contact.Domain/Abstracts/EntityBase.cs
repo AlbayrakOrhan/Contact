@@ -1,6 +1,6 @@
 namespace Contact.Domain.Abstracts;
 
-public abstract class BaseEntity
+public abstract class EntityBase
 {
     public virtual Guid Id { get; set; }
     public DateTime CreatedDate { get; set; }

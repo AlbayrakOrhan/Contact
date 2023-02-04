@@ -3,7 +3,7 @@ using Contact.Domain.Abstracts;
 
 namespace Contact.Application.Interfaces;
 
-public interface IGenericRepository<TEntity> where TEntity : BaseEntity
+public interface IGenericRepository<TEntity> where TEntity : EntityBase
 {
     Task<TEntity> GetById(Guid id);
     IQueryable<TEntity> All();
@@ -15,4 +15,6 @@ public interface IGenericRepository<TEntity> where TEntity : BaseEntity
     Task<IList<TEntity>> FilterBy(Expression<Func<TEntity, bool>> predicate);
     TEntity Update(TEntity entity);
     Task AddRangeAsync(IEnumerable<TEntity> entities);
+    Task DeleteAsync(Guid id);
+    void Delete(TEntity entity);
 }

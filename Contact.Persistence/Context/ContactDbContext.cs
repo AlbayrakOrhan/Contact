@@ -15,8 +15,8 @@ public class ContactDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        new PersonConfiguration().BaseConfiguration(modelBuilder);
-        new PersonContactConfiguration().BaseConfiguration(modelBuilder);
+        new PersonConfiguration().Configure(modelBuilder);
+        new PersonContactConfiguration().Configure(modelBuilder);
     }
 
     public DbSet<Person> Persons { get; set; }
@@ -44,7 +44,7 @@ public class ContactDbContext : DbContext
 
         foreach (var entity in added)
         {
-            if (entity is BaseEntity track)
+            if (entity is EntityBase track)
             {
                 track.CreatedDate = DateTime.Now;
             }
@@ -69,7 +69,7 @@ public class ContactDbContext : DbContext
 
         foreach (var entity in modified)
         {
-            if (entity is BaseEntity track)
+            if (entity is EntityBase track)
             {
                 track.ModifiedDate = DateTime.Now;
             }

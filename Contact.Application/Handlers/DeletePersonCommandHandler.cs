@@ -17,6 +17,15 @@ public class DeletePersonCommandHandler : IRequestHandler<DeletePersonCommand, D
 
     public async Task<DeletePersonCommandResult> Handle(DeletePersonCommand request, CancellationToken cancellationToken)
     {
+        var person = await _personRepository.GetById(request.Id);
+        if (person == null)
+        {
+            throw new Exception("Person not found");
+        }
+
+        _personRepository.Delete(person);
+        await _unitOfWork.SaveChangesAsync();
+
         return new DeletePersonCommandResult();
     }
 }

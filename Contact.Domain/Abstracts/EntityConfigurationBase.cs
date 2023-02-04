@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Contact.Domain.Abstracts;
 
-public abstract class BaseEntityConfiguration<T> where T : BaseEntity
+public abstract class EntityConfigurationBase<T> where T : EntityBase
 {
     protected abstract void Configure(EntityTypeBuilder<T> eb);
 
-    public void BaseConfiguration(ModelBuilder modelBuilder)
+    public void Configure(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<T>(eb =>
         {

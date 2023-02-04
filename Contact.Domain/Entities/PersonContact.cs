@@ -4,7 +4,7 @@ using Contact.Domain.Interfaces;
 
 namespace Contact.Domain.Entities;
 
-public class PersonContact : BaseEntity, ISoftDeletableEntity
+public class PersonContact : EntityBase, ISoftDeletableEntity
 {
     public ContactType Type { get; set; }
     public string Value { get; set; }

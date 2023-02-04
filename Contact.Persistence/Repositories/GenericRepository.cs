@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Contact.Persistence.Repositories;
 
-public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
+public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : EntityBase
 {
     private readonly ContactDbContext _context;
     private readonly DbSet<TEntity> _entities;
@@ -76,5 +76,21 @@ public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> w
     public Task AddRangeAsync(IEnumerable<TEntity> entities)
     {
         return _entities.AddRangeAsync(entities);
+    }
+
+    public async Task DeleteAsync(Guid id)
+    {
+        var entity = await GetById(id);
+        _context.Entry(entity).State = EntityState.Deleted;
+    }
+
+    public void Delete(TEntity entity)
+    {
+        if (entity == null)
+        {
+            throw new ArgumentNullException();
+        }
+
+        _entities.Remove(entity);
     }
 }

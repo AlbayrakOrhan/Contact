@@ -26,9 +26,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/oalbayrak/Personal Projects/Contact/Contact.Application/Contact.Application.csproj": {
-                "projectPath": "/Users/oalbayrak/Personal Projects/Contact/Contact.Application/Contact.Application.csproj"
-              },
               "/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/Contact.Persistence.csproj": {
                 "projectPath": "/Users/oalbayrak/Personal Projects/Contact/Contact.Persistence/Contact.Persistence.csproj"
               }

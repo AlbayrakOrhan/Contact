@@ -3,7 +3,7 @@ using Contact.Domain.Interfaces;
 
 namespace Contact.Domain.Entities;
 
-public class Person : BaseEntity, ISoftDeletableEntity
+public class Person : EntityBase, ISoftDeletableEntity
 {
     public Person()
     {

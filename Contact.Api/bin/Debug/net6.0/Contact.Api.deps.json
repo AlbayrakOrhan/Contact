@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "Contact.Api/1.0.0": {
         "dependencies": {
-          "Contact.Application": "1.0.0",
           "Contact.Persistence": "1.0.0",
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
